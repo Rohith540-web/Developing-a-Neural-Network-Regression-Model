@@ -4,7 +4,7 @@
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
-Explain the problem statement
+The objective of this experiment is to design, implement, and evaluate a Deep Learning–based Neural Network regression model to predict a continuous output variable from a given set of input features. The task is to preprocess the data, construct a neural network regression architecture, train the model using backpropagation and gradient descent, and evaluate its performance using appropriate regression metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R² score.
 
 ## Neural Network Model
 
@@ -45,6 +45,9 @@ Evaluate the model with the testing data.
 Use the trained model to predict  for a new input value .
 
 ## PROGRAM
+### Name: ROHITH V
+
+### Register Number: 212224220083
 ```python
 
 import torch
@@ -150,27 +153,6 @@ print(f"Prediction: {prediction}")
 
 ```
 
-
-### Name: ROHITH V
-
-### Register Number: 212224220083
-
-```python
-class NeuralNet(nn.Module):
-    def __init__(self):
-        super().__init__()
-        #Include your code here
-
-
-
-# Initialize the Model, Loss Function, and Optimizer
-
-
-
-def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
-    #Include your code here
-
-```
 
 ### Dataset Information
 <img width="405" height="419" alt="image" src="https://github.com/user-attachments/assets/08030ca1-7218-4209-9358-491ac8837e6d" />
